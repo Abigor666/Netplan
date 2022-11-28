@@ -1,0 +1,6 @@
+# This is the netplan config for dhcp
+network:
+  ethernets:
+    eth0:
+      dhcp4: true
+  version: 2
